@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.adoptedKittens{
+  position: relative;
+}
+
+h1{
+  text-justify: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li div.details{
+  display: none;
+}
+
+
+li:hover div.details{
+  display: block;
+  position: absolute;
+  left: -95px;
+}
+
+
+.kittenList {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1rem;
+}
+
+.adopt{
+  width: 10vw;
+ overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items:center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+img{
+  width: 100%;
+  margin-right: 16px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+

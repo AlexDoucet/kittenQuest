@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+li div.details{
+  display: none;
+}
+
+li:hover div.details{
+  display: block;
+  position: absolute;
+  right: -50px;
+}
+
+.kittenList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.list{
+  position: relative;
+}
+
+.adopt{
+  width: 10vw;
+ overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+img{
+  width: 100%;
+  margin-right: 16px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button{
+  width: 80%;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: solid 0.2px grey;
+  cursor: pointer;
+  background-color: var(--opal);
+  border: none;
+}

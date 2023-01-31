@@ -1,0 +1,19 @@
+
+
+<ul class="adoptedKittens">
+  <h1>Adopted cats</h1>
+  <li class="kittenList" *ngFor="let cat of adoptedKittens">
+
+
+
+      <div class="details">
+        <p>{{cat.name}}</p>
+        <p>{{cat.race}}</p>
+        <p>{{cat.dateOfBirth}}</p>
+      </div>
+      <div class="adopt">
+        <img src={{cat.image}} alt="">
+      </div>
+  </li>
+
+</ul>
